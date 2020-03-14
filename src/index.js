@@ -8,12 +8,12 @@ import * as serviceWorker from './serviceWorker'
 const ReturnReactElement = props => {
   return (
     <h2>
-      {props.name} / {props.music}{' '}
+      {props.name} / {props.group}
     </h2>
   )
 }
 ReactDOM.render(
-  <ReturnReactElement name='おれ' music='jazz' />,
+  <ReturnReactElement name='おれ' group='Aチーム' />,
   document.getElementById('root')
 )
 
