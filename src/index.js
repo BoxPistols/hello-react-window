@@ -5,10 +5,10 @@ import './index.css'
 import * as serviceWorker from './serviceWorker'
 
 // const returnReactElement = (val) => <h2>{val}</h2>
-const ReturnReactElement = props => {
+const ReturnReactElement = ({ name, group }) => {
   return (
     <h2>
-      {props.name} / {props.group}
+      {name} / {group}
     </h2>
   )
 }
