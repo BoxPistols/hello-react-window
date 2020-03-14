@@ -5,6 +5,7 @@ import './index.css'
 import * as serviceWorker from './serviceWorker'
 
 import { stringVal, myVal, ReactEl } from './Variable'
+import ClassComponent from './Variable'
 
 console.log(stringVal)
 myVal()
@@ -13,6 +14,7 @@ myVal()
 const ReturnReactElement = ({ name, group }) => {
   return (
     <h2>
+      <ClassComponent/>
       <ReactEl />
       {name} / {group}
     </h2>
