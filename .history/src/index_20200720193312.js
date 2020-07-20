@@ -30,7 +30,7 @@ const ReturnReactElement = ({ name, group }) => {
       <App />
       {/* <ClassComponent /> */}
       {/* <ReactEl /> */}
-      {/* {name} / {group} */}
+      {name} / {group}
     </h2>
   )
 }

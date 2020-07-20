@@ -35,7 +35,7 @@ const ReturnReactElement = ({ name, group }) => {
   )
 }
 ReactDOM.render(
-  <ReturnReactElement name="おれ" group="Aチーム" />,
+  // <ReturnReactElement name="おれ" group="Aチーム" />,
   document.getElementById('root')
 )
 

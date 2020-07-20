@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
-import App from './App'
+import App from './App';
 import * as serviceWorker from './serviceWorker'
 
 import { stringVal, myVal, ReactEl } from './Variable'
@@ -27,10 +27,10 @@ console.log(`name:${tanakaProfile.name} age:${tanakaProfile.age}`)
 const ReturnReactElement = ({ name, group }) => {
   return (
     <h2>
-      <App />
-      {/* <ClassComponent /> */}
-      {/* <ReactEl /> */}
-      {/* {name} / {group} */}
+      <App/>
+      <ClassComponent />
+      <ReactEl />
+      {name} / {group}
     </h2>
   )
 }
