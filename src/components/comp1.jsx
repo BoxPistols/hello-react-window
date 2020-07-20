@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 // if use Component
-
+import Greet from './greet'
 class Comp1 extends Component {
   render() {
     return (
       <>
-        <h1>Hello</h1>
+        <div>
+          Hello <Greet />
+        </div>
       </>
     )
   }
